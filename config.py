@@ -65,13 +65,7 @@ COMMANDS = {
         "log": LOG_CHANNELS["num"],
         "desc": "Phone number basic lookup",
         "extra_blacklist": ['owner', 
-        'https://t.me/SUBHXCOSMO \n BUY INSTANT CHEAP PRICE', 
-        '"https://t.me/SUBHXCOSMO"', 
-        '"BUY INSTANT CHEAP PRICE"',
-        '"https://t.me/SUBHXCOSMO \n BUY INSTANT CHEAP PRICE"', 
-        'https://t.me/SUBHXCOSMO', 
-        '\n',  
-        'BUY INSTANT CHEAP PRICE'
+                            'https://t.me/SUBHXCOSMO \n BUY INSTANT CHEAP PRICE'
                            ]
     },
     "tg2num": {
