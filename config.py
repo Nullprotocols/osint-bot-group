@@ -60,13 +60,11 @@ GLOBAL_BLACKLIST = [
 # Har command ka URL, parameter description, log channel ID, description, extra blacklist
 COMMANDS = {
     "num": {
-        "url": "https://api.subhxcosmo.in/api?key=SATYAM2&type=mobile&term={}",
+        "url": "https://number-info-ten.vercel.app/?key=lundkinger3&number={}",
         "param": "10-digit number",
         "log": LOG_CHANNELS["num"],
         "desc": "Phone number basic lookup",
-        "extra_blacklist": ['owner', 
-                            'https://t.me/SUBHXCOSMO \n BUY INSTANT CHEAP PRICE'
-                           ]
+        "extra_blacklist": []
     },
     "tg2num": {
         "url": "https://tg2num-owner-api.vercel.app/?userid={}",
