@@ -67,11 +67,11 @@ COMMANDS = {
         "extra_blacklist": []
     },
     "tg2num": {
-        "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
+        "url": "https://tg2num-owner-api.vercel.app/?userid={}",
         "param": "user id",
         "log": LOG_CHANNELS["tg2num"],
         "desc": "Telegram user ID to number (if available)",
-        "extra_blacklist": ['credit', 'channel', 'validity', 'note', 'help_group', 'admin', 'owner', 'your_usage']
+        "extra_blacklist": ['credit', 'channel', 'validity']
     },
     "vehicle": {
         "url": "https://vehicle-info-aco-api.vercel.app/info?vehicle={}",
