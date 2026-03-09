@@ -150,18 +150,21 @@ COMMANDS = {
         "extra_blacklist": []
     },
     "tginfo": {
-        "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
+        "url": "https://api.b77bf911.workers.dev/telegram?user={}",
         "param": "username/userid",
         "log": LOG_CHANNELS["tginfo"],
         "desc": "Telegram basic info",
-        "extra_blacklist": ['number', 'country_code', 'country', 'message', 'credit', 'channel', 'validity', 'note', 'help_group', 'admin', 'owner', 'your_usage']
+        "extra_blacklist": []
     },
     "tginfopro": {
-        "url": "https://api.b77bf911.workers.dev/telegram?user={}",
+        "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
         "param": "username/userid",
         "log": LOG_CHANNELS["tginfopro"],
         "desc": "Telegram advanced profile data",
-        "extra_blacklist": []
+        "extra_blacklist": ['note', 'brother', 'https://t.me/hackedanurag', 'help_group', '@anuragxanuu', '@Ayano_mindx', 'admin',
+                            '@Ayano_mindx', '@Shuubbhhhaaammm', 
+                           'owner', 'credit', 'your_remaining_today', 'your_usage_today', 'your_limit', 'your_usage'
+                           ]
     },
     "git": {
         "url": "https://abbas-apis.vercel.app/api/github?username={}",
