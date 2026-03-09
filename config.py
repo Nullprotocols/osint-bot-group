@@ -67,11 +67,11 @@ COMMANDS = {
         "extra_blacklist": []
     },
     "tg2num": {
-        "url": "https://tg2num-owner-api.vercel.app/?userid={}",
+        "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
         "param": "user id",
         "log": LOG_CHANNELS["tg2num"],
         "desc": "Telegram user ID to number (if available)",
-        "extra_blacklist": []
+        "extra_blacklist": ['credit', 'channel', 'validity', 'note', 'help_group', 'admin', 'owner', 'your_usage']
     },
     "vehicle": {
         "url": "https://vehicle-info-aco-api.vercel.app/info?vehicle={}",
@@ -150,11 +150,11 @@ COMMANDS = {
         "extra_blacklist": []
     },
     "tginfo": {
-        "url": "https://openosintx.vippanel.in/tgusrinfo.php?key=OpenOSINTX-FREE&user={}",
+        "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
         "param": "username/userid",
         "log": LOG_CHANNELS["tginfo"],
         "desc": "Telegram basic info",
-        "extra_blacklist": []
+        "extra_blacklist": ['number', 'country_code', 'country', 'message', 'credit', 'channel', 'validity', 'note', 'help_group', 'admin', 'owner', 'your_usage']
     },
     "tginfopro": {
         "url": "https://api.b77bf911.workers.dev/telegram?user={}",
