@@ -67,11 +67,16 @@ COMMANDS = {
         "extra_blacklist": []
     },
     "tg2num": {
-        "url": "https://tg2num-owner-api.vercel.app/?userid={}",
+        "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
         "param": "user id",
         "log": LOG_CHANNELS["tg2num"],
         "desc": "Telegram user ID to number (if available)",
-        "extra_blacklist": ['credit', 'channel', 'validity']
+        "extra_blacklist": ['"response_time": "1189ms",',
+  '"credit": "@Shuubbhhhaaammm",',
+  '"owner": "@Ayano_mindx",',
+  '"admin": "@anuragxanuu",',
+  '"help_group": "https://t.me/hackedanurag",',
+  '"note": "brother"']
     },
     "vehicle": {
         "url": "https://vehicle-info-aco-api.vercel.app/info?vehicle={}",
@@ -154,19 +159,19 @@ COMMANDS = {
         "param": "username/userid",
         "log": LOG_CHANNELS["tginfo"],
         "desc": "Telegram basic info",
-        "extra_blacklist": ['"note"', '"brother"', 'https://t.me/hackedanurag', '"help_group"', '"@anuragxanuu"', '"@Ayano_mindx"', '"admin"',
-                            '"@Ayano_mindx"', '"@Shuubbhhhaaammm"', 
-                           '"owner"', '"credit"']
+        "extra_blacklist": []
     },
     "tginfopro": {
         "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
         "param": "username/userid",
         "log": LOG_CHANNELS["tginfopro"],
         "desc": "Telegram advanced profile data",
-        "extra_blacklist": ['"note"', '"brother"', 'https://t.me/hackedanurag', '"help_group"', '"@anuragxanuu"', '"@Ayano_mindx"', '"admin"',
-                            '"@Ayano_mindx"', '"@Shuubbhhhaaammm"', 
-                           '"owner"', '"credit"'
-                           ]
+        "extra_blacklist": ['"response_time": "1189ms",',
+  '"credit": "@Shuubbhhhaaammm",',
+  '"owner": "@Ayano_mindx",',
+  '"admin": "@anuragxanuu",',
+  '"help_group": "https://t.me/hackedanurag",',
+  '"note": "brother"']
     },
     "git": {
         "url": "https://abbas-apis.vercel.app/api/github?username={}",
