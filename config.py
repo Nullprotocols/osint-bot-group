@@ -154,16 +154,18 @@ COMMANDS = {
         "param": "username/userid",
         "log": LOG_CHANNELS["tginfo"],
         "desc": "Telegram basic info",
-        "extra_blacklist": []
+        "extra_blacklist": ['"note"', '"brother"', 'https://t.me/hackedanurag', '"help_group"', '"@anuragxanuu"', '"@Ayano_mindx"', '"admin"',
+                            '"@Ayano_mindx"', '"@Shuubbhhhaaammm"', 
+                           '"owner"', '"credit"']
     },
     "tginfopro": {
         "url": "https://tg-to-num-six.vercel.app/?key=rootxsuryansh&q={}",
         "param": "username/userid",
         "log": LOG_CHANNELS["tginfopro"],
         "desc": "Telegram advanced profile data",
-        "extra_blacklist": ['note', 'brother', 'https://t.me/hackedanurag', 'help_group', '@anuragxanuu', '@Ayano_mindx', 'admin',
-                            '@Ayano_mindx', '@Shuubbhhhaaammm', 
-                           'owner', 'credit', 'your_remaining_today', 'your_usage_today', 'your_limit', 'your_usage'
+        "extra_blacklist": ['"note"', '"brother"', 'https://t.me/hackedanurag', '"help_group"', '"@anuragxanuu"', '"@Ayano_mindx"', '"admin"',
+                            '"@Ayano_mindx"', '"@Shuubbhhhaaammm"', 
+                           '"owner"', '"credit"'
                            ]
     },
     "git": {
