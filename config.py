@@ -76,7 +76,7 @@ COMMANDS = {
   '"owner": "@Ayano_mindx",',
   '"admin": "@anuragxanuu",',
   '"help_group": "https://t.me/hackedanurag",',
-  '"note": "brother"']
+  '"note": "brother"', '9277193139']
     },
     "vehicle": {
         "url": "https://vehicle-info-aco-api.vercel.app/info?vehicle={}",
@@ -171,7 +171,7 @@ COMMANDS = {
   '"owner": "@Ayano_mindx",',
   '"admin": "@anuragxanuu",',
   '"help_group": "https://t.me/hackedanurag",',
-  '"note": "brother"']
+  '"note": "brother"', '9277193139']
     },
     "git": {
         "url": "https://abbas-apis.vercel.app/api/github?username={}",
